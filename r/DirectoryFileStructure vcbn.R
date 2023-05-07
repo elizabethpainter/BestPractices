@@ -15,8 +15,8 @@ file.create("figures/README.MD")
 list.files("output")
 
 
-list.files (pattern = "\\.surv") #\\ Makes it match exactly to the .dist
-surv_files <- list.files (pattern = "\\.surv")
+list.files(pattern = "\\.surv") #\\ Makes it match exactly to the .dist
+surv_files <- list.files(pattern = "\\.surv")
 file.copy(from = surv_files, to = "output") 
 
 list.files("output")
